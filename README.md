@@ -1,3 +1,3 @@
 # KC-VSM
 
-VSM(Virtual Stack Machine)のデバック用に作ったWebアプリ．
+VSM(Virtual Stack Machine)のデバッグ用に作ったWebアプリ．
