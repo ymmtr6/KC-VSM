@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+  <title>KC-VSM</title>
+  <link rel="stylesheet" href="kc-vsm.css">
+</head>
+<body>
+  <h2>VSM　デバックツール</h2>
+  <div>
+    <input type="file" id="file">
+    <input type="button" value="NEXT(↓)" onclick="next(true);">
+    <input type="button" value="FINISH(Shift + A)" onclick="finish();">
+  </div>
+  <div class="parent">
+    <div id="iseg_table" class="inline-block"></div>
+    <div id="stack_table" class="inline-block"></div>
+    <div id="mem_table" class="inline-block"></div>
+  </div>
+
+  <div id="output"></div>
+
+  <script type="text/javascript" src="kc-vsm.js"></script>
+</body>

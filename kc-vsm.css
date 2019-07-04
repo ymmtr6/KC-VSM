@@ -1,0 +1,38 @@
+tr {
+  border: solid 1px;
+  padding: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 200px;
+}
+
+.inline-block {
+  display: inline-block;
+  font-size: 12px;
+  padding: 10px;
+  width: 200px;
+  height: 600px;
+  background-color: #eee;
+  vertical-align: top;
+  overflow:auto;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+
+}
+
+.parent {
+  font-size: 0;
+  width: 670px;
+  height: 620px;
+}
+
+#output {
+  width: 664px;;
+  min-height: 100px;
+  max-height: 500px;
+  background-color: #eee;
+  overflow:auto;
+  border: 1px solid #000000;
+}
