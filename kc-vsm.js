@@ -100,6 +100,19 @@ function next(flag) {
   }
 }
 
+function move() {
+  f = document.getElementById("current");
+  i = Number(f.value)
+  console.log("move " + f.value);
+  while (!HALT && counter != i) {
+    console.log("move " + f.value + ":" + counter);
+    next(false);
+  }
+  viewIseg();
+  viewStack();
+  viewVseg();
+}
+
 function finish() {
   while (!HALT) {
     next(false);
