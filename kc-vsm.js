@@ -35,7 +35,7 @@ function viewIseg() {
   for (i = 0; i < asm.length - 1; i++) {
     rows.push(t.insertRow(-1));
     cell = rows[i].insertCell(-1);
-    cell.appendChild(document.createTextNode(i));
+    cell.appendChild(document.createTextNode(i + 1));
     if (i == counter) cell.style.backgroundColor = "#bbb";
     cell = rows[i].insertCell(-1);
     cell.appendChild(document.createTextNode(asm[i][0]));
